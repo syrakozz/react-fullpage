@@ -79,6 +79,7 @@ class FullpageNavigation extends PureComponent {
                 onKeyPress={() => gotoSlide(slide)}
                 role="button"
                 tabIndex="-1"
+                id={`slide${i}`}
                 aria-label={`Slide ${i}`}
               >
                 <span style={{
